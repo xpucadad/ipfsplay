@@ -1,0 +1,5 @@
+MMM11:ipfsplay Ken$ ipfs add -r website
+added QmeEPdB7qQZUVxsEZrSNUPRsBN4vKCavBodWPDWsyVnJmw website/index.html
+added QmUzVPeGGdHLNuwTPabYyLnQeekqYZqXMCRQiTrpWjzM77 website
+MMM11:ipfsplay Ken$ ipfs name publish QmUzVPeGGdHLNuwTPabYyLnQeekqYZqXMCRQiTrpWjzM77
+Published to QmVngjBqm3b9XQahDigxULknXK9k9d8seQYBk75mZRYCsE: /ipfs/QmUzVPeGGdHLNuwTPabYyLnQeekqYZqXMCRQiTrpWjzM77
