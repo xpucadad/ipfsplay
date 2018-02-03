@@ -1,3 +1,10 @@
+V1.0
+MMM11:ipfsplay Ken$ ipfs add -r website
+added QmbWMtcBp8L3WqoCQrTLo9GjM2T9nFEuQs7LzfDw1DAJzK website/index.html
+added QmeVFU28Mh13e1em3kDeC9HxSoZiuSfGcxXwXpWM9KeoK3 website
+MMM11:ipfsplay Ken$ ipfs name publish QmeVFU28Mh13e1em3kDeC9HxSoZiuSfGcxXwXpWM9KeoK3
+Published to QmVngjBqm3b9XQahDigxULknXK9k9d8seQYBk75mZRYCsE: /ipfs/QmeVFU28Mh13e1em3kDeC9HxSoZiuSfGcxXwXpWM9KeoK3
+-----
 V0.9
 MMM11:ipfsplay Ken$ ipfs add -r website
 added QmbFeiZBFxkdRomLeuREiWpssK9Us28yMA8StCZBHxPifh website/index.html
