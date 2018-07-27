@@ -5,7 +5,6 @@ added Qma2uV1UfewJM1X79JUtN4avkN5G9jCcEZbuEpdSdQn3qk website
  2.55 KiB / 2.65 KiB [=============================================================>--]  96.24%
 MMM11:ipfsplay Ken$ ipfs name publish Qma2uV1UfewJM1X79JUtN4avkN5G9jCcEZbuEpdSdQn3qk
 Published to QmVngjBqm3b9XQahDigxULknXK9k9d8seQYBk75mZRYCsE: /ipfs/Qma2uV1UfewJM1X79JUtN4avkN5G9jCcEZbuEpdSdQn3qk
-
 -----
 V1.0
 MMM11:ipfsplay Ken$ ipfs add -r website
