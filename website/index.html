@@ -1,18 +1,16 @@
 <html>
 <body>
 <h1>Hello L4R World!</h1>
-<h5>V1.0</h5>
+<h5>V1.1</h5>
 <p>This web page is being served from the ipfs p2p network. This is, there
   is no single server on which it is hosted.</p>
-<h2>Note:</h2>
-<p>It appears that the need to re-add and re-publish to keep the page available has been removed (or fixed).</p>
 <h2>Here is the setup:</h2>
 <ul>
 <li>The page source is in the file website/index.html.</li>
 <li>The website folder is added to ipfs, generating a hash $WEBSITE_HASH: "ipfs add -r website". The -r will recurse to all files in the website folder.</li>
 <li>The hash is published to the peer id: "ipfs name publish $WEBSITE_HASH".</li>
 <li>A DNS Cname record is created to map ipfstest.looking4reality.net to gateway.ipfs.io.</li>
-<li>A DNS Text record is created which maps the site url prepended with the special ipfs "_dnslink.". That is defining a text record with the host set to "_dnslink.ipfstest.looking4reality.net", and the text set to "dnslink=ipns/$PEER_ID", where $PEER_ID is the local ipfs daemon's peer id.</li>
+<li>A DNS Text record is created which maps the site url prepended with the special ipfs "_dnslink.". That is defining a text record with the host set to "_dnslink.ipfstest.looking4reality.net", and the text set to "dnslink=ipns/$PEER_ID", where $PEER_ID is the local ipfs daemon's peer id. This is where the name was published to above.</li>
 </ul>
 <h2>The page is retrieved as follows:</h2>
 <ol>
