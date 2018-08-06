@@ -1,9 +1,17 @@
 # V1.3
 ## Add files
 ```
+MMM11:ipfsplay Ken$ ipfs add -r sites
+added QmbVDVE54BKsiYRG2cTjScozrGW2g95f9jMjeLHybZEwAj sites/ipfstest/history.html
+added QmURinRnAcGS6sz19f8XCF6guX64cWXYMmiu5eoEcdiVtr sites/ipfstest/index.html
+added QmPwxTm2m65bWSdrkXqSV8uCn1w9GxJkd7DDJ9EhHS39AW sites/ipfstest
+added QmQdqgDerzhGYibWZx2QNgSGjJpLNT6JDAiQ28NYP8FjfU sites
+ 3.06 KiB / 9.33 KiB [================>--------------------------------]  32.82%
 ```
 ## Publish to MMM11 ID:
 ```
+MMM11:ipfsplay Ken$ ipfs name publish QmQdqgDerzhGYibWZx2QNgSGjJpLNT6JDAiQ28NYP8FjfU
+Published to QmVngjBqm3b9XQahDigxULknXK9k9d8seQYBk75mZRYCsE: /ipfs/QmQdqgDerzhGYibWZx2QNgSGjJpLNT6JDAiQ28NYP8FjfU
 ```
 ---
 # V1.2
