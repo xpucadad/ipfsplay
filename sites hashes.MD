@@ -1,3 +1,20 @@
+# V1.3 - reloaded on 2008-08-20
+The daemon hash on MMM11 changed for some reason, so I had to republish. I went ahead and did the add again as well, but those hashes don't appear to have changed.
+## Add files
+```
+MMM11:ipfsplay Ken$ ipfs add -r sites
+added QmbVDVE54BKsiYRG2cTjScozrGW2g95f9jMjeLHybZEwAj sites/ipfstest/history.html
+added QmURinRnAcGS6sz19f8XCF6guX64cWXYMmiu5eoEcdiVtr sites/ipfstest/index.html
+added QmPwxTm2m65bWSdrkXqSV8uCn1w9GxJkd7DDJ9EhHS39AW sites/ipfstest
+added QmQdqgDerzhGYibWZx2QNgSGjJpLNT6JDAiQ28NYP8FjfU sites
+ 3.06 KiB / 9.33 KiB [================>--------------------------------]32.82
+```
+## Publish files
+```
+MMM11:ipfsplay Ken$ ipfs name publish QmQdqgDerzhGYibWZx2QNgSGjJpLNT6JDAiQ28NYP8FjfU
+Published to QmdX5BzMJwCWtcsarWt64aU9gzzYbYJ9jaaoHwKrwBSFgp: /ipfs/QmQdqgDerzhGYibWZx2QNgSGjJpLNT6JDAiQ28NYP8FjfU
+```
+
 # V1.3
 ## Add files
 ```
